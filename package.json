@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "esbuild src/main.js --bundle --format=esm --outfile=app.js --minify"
+    "build": "esbuild src/main.js --bundle --format=esm --outfile=app.js --minify && esbuild src/playground.js --bundle --format=esm --outfile=3d/app.js --minify"
   },
   "dependencies": {
     "three": "0.180.0"
